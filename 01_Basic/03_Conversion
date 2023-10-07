@@ -1,0 +1,15 @@
+
+// let age = "21"
+//  let age = "21qw"
+ let age = null;
+console.log(typeof age);
+
+let conversion = Number(age)
+console.log(typeof conversion);
+console.log(conversion);
+
+// "22" => 22
+// "22qw" => NAN (Not A Number)
+// true => 1; false => 0
+// null => 0
+// undefined => NAN
