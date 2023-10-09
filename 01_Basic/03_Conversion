@@ -2,14 +2,25 @@
 // let age = "21"
 //  let age = "21qw"
  let age = null;
-console.log(typeof age);
+// console.log(typeof age);
 
 let conversion = Number(age)
-console.log(typeof conversion);
-console.log(conversion);
+// console.log(typeof conversion);
+// console.log(conversion);
 
 // "22" => 22
 // "22qw" => NAN (Not A Number)
 // true => 1; false => 0
 // null => 0
 // undefined => NAN
+
+
+// prefix and postfix operator
+
+let num1 = 10
+let num2 = ++num1
+console.log(num1,num2);
+
+let num3 = 20
+let num4 = num3++
+console.log(num3,num4);
