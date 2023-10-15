@@ -36,11 +36,27 @@ const obj5 = {...obj3,...obj4} //preferred way
     // or
 const obj6 = Object.assign({},obj3,obj4)
 
-console.log(obj5);
+// console.log(obj5);
 
 
 // to get key of object
-console.log(Object.keys(obj5))
+// console.log(Object.keys(obj5))
 
 // to get value of objects
-console.log(Object.values(obj5));
+// console.log(Object.values(obj5));
+
+
+
+// ******************  object destructuring **************
+
+const subject = {
+    subName: "JS",
+    subAuthor: "Krishna",
+    subPrice: 5000
+}
+
+const{subAuthor} = subject
+const{subPrice: price} = subject //we can chage the key using :
+
+console.log(subAuthor);
+console.log(price);
